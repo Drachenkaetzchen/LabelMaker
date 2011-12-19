@@ -199,7 +199,7 @@ Ext.onReady(function(){
 
 function onFormSubmit () {
 	Ext.Ajax.request({
-	    url: 'test.php',
+	    url: 'print.php',
 	    params: {
 		text: finalText
 	}});
